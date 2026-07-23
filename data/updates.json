@@ -6,6 +6,252 @@
   },
   "entries": [
     {
+      "id": "WB-0020",
+      "date": "2026-07-24",
+      "title": "Landing page form — add Monthly Volume field",
+      "project": "TXG Website",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "New required field 'Monthly Volume' with a dropdown: 0-50, 50-100, 100-300, 300-500. Whole landing page to be finalized by Friday 24 July.",
+      "metrics": [
+        { "label": "Due", "value": "24 Jul" },
+        { "label": "New fields", "value": "1" },
+        { "label": "Options", "value": "4" }
+      ],
+      "tags": [ "Forms", "Landing page" ]
+    },
+    {
+      "id": "WB-0019",
+      "date": "2026-08-07",
+      "title": "How to Choose a Fulfillment Partner: A 12-Point Checklist",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Fulfillment & Warehousing.",
+      "tags": [ "Scheduled", "Fulfillment & Warehousing" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/how-to-choose-a-fulfillment-partner/" } ]
+    },
+    {
+      "id": "WB-0018",
+      "date": "2026-08-06",
+      "title": "3PL vs. 4PL: What's the Difference and Which Does Your Brand Need?",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Fulfillment & Warehousing.",
+      "tags": [ "Scheduled", "Fulfillment & Warehousing" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/3pl-vs-4pl-difference/" } ]
+    },
+    {
+      "id": "WB-0017",
+      "date": "2026-08-05",
+      "title": "Peak Season Fulfillment: A BFCM Readiness Guide for Growing Brands",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Fulfillment & Warehousing.",
+      "tags": [ "Scheduled", "Fulfillment & Warehousing" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/peak-season-fulfillment-readiness/" } ]
+    },
+    {
+      "id": "WB-0016",
+      "date": "2026-08-04",
+      "title": "Warehousing in the US vs. Canada: Where Should You Store Inventory?",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Fulfillment & Warehousing.",
+      "tags": [ "Scheduled", "Fulfillment & Warehousing" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/warehousing-us-vs-canada/" } ]
+    },
+    {
+      "id": "WB-0015",
+      "date": "2026-08-03",
+      "title": "How to Stop Losing Sales to Surprise Customs Fees at Checkout",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
+      "tags": [ "Scheduled", "Customs & Compliance" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/stop-surprise-customs-fees/" } ]
+    },
+    {
+      "id": "WB-0014",
+      "date": "2026-08-02",
+      "title": "Cross-Border Returns: What Actually Works (and What Quietly Kills Conversion)",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Fulfillment & Warehousing.",
+      "tags": [ "Scheduled", "Fulfillment & Warehousing" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/cross-border-returns-that-work/" } ]
+    },
+    {
+      "id": "WB-0013",
+      "date": "2026-08-01",
+      "title": "CUSMA Explained: How to Keep Your Shipments Duty-Free in North America",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
+      "tags": [ "Scheduled", "Customs & Compliance" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/cusma-rules-of-origin-duty-free/" } ]
+    },
+    {
+      "id": "WB-0012",
+      "date": "2026-07-31",
+      "title": "Bilingual Labeling for Canada: CFIA Rules and Quebec's Bill 96",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
+      "tags": [ "Scheduled", "Customs & Compliance" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/bilingual-labeling-canada-bill-96/" } ]
+    },
+    {
+      "id": "WB-0011",
+      "date": "2026-07-30",
+      "title": "Selling in Canada as a Foreign Brand: CBSA, CFIA & Health Canada Explained",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
+      "tags": [ "Scheduled", "Customs & Compliance" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/selling-in-canada-foreign-brand-compliance/" } ]
+    },
+    {
+      "id": "WB-0010",
+      "date": "2026-07-29",
+      "title": "Amazon FBA vs. FBM vs. 3PL: Which Fulfillment Model Fits Your Brand?",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Amazon & Marketplaces.",
+      "tags": [ "Scheduled", "Amazon & Marketplaces" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/fba-vs-fbm-vs-3pl/" } ]
+    },
+    {
+      "id": "WB-0009",
+      "date": "2026-07-28",
+      "title": "Amazon FBA Prep for Brands Selling in the US & Canada",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Amazon & Marketplaces.",
+      "tags": [ "Scheduled", "Amazon & Marketplaces" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/amazon-fba-prep-guide/" } ]
+    },
+    {
+      "id": "WB-0008",
+      "date": "2026-07-27",
+      "title": "How to Calculate Landed Cost for Cross-Border E-commerce",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
+      "tags": [ "Scheduled", "Cross-Border Shipping" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/how-to-calculate-landed-cost/" } ]
+    },
+    {
+      "id": "WB-0007",
+      "date": "2026-07-26",
+      "title": "DDP vs. DAP: Which Shipping Term Should Your Brand Actually Use?",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
+      "tags": [ "Scheduled", "Cross-Border Shipping" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/ddp-vs-dap-shipping-explained/" } ]
+    },
+    {
+      "id": "WB-0006",
+      "date": "2026-07-25",
+      "title": "Cross-Border E-commerce Fulfillment: The Complete 2026 Guide",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
+      "tags": [ "Scheduled", "Cross-Border Shipping" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/cross-border-ecommerce-fulfillment-guide/" } ]
+    },
+    {
+      "id": "WB-0005",
+      "date": "2026-07-24",
+      "title": "The End of De Minimis: What the Collapse of the $800 Rule Means for Brands Selling in the US",
+      "project": "TXG Blog",
+      "status": "planned",
+      "owner": "IT",
+      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
+      "tags": [ "Scheduled", "Customs & Compliance" ],
+      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/end-of-de-minimis-what-it-means-for-your-brand/" } ]
+    },
+    {
+      "id": "WB-0004",
+      "date": "2026-07-24",
+      "title": "Scheduled 15 SEO blog posts on transwayxpress.com",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "One post per day at 9:00 AM IST from 24 July through 7 August. Covers customs and compliance, cross-border shipping, Amazon marketplaces, and fulfillment.",
+      "metrics": [
+        { "label": "Posts", "value": "15" },
+        { "label": "First live", "value": "24 Jul" },
+        { "label": "Last live", "value": "7 Aug" },
+        { "label": "Cadence", "value": "Daily" },
+        { "label": "Categories", "value": "4" }
+      ],
+      "tags": [ "SEO", "WordPress", "Content" ]
+    },
+    {
+      "id": "WB-0003",
+      "date": "2026-07-24",
+      "title": "USA & Canada Dock Leads — new ad set live",
+      "project": "Meta Ads",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "Launched the North India geo test set today. Watching cost per lead for 72 hours before scaling budget.",
+      "metrics": [
+        { "label": "Spend", "value": "$248.10" },
+        { "label": "Impressions", "value": "41,203" },
+        { "label": "Clicks", "value": "612" },
+        { "label": "CTR", "value": "1.49%" },
+        { "label": "Leads", "value": "17" },
+        { "label": "Cost / lead", "value": "$14.59" }
+      ],
+      "tags": [ "TXG", "Paid social" ],
+      "links": [ { "label": "Ads Manager", "url": "https://adsmanager.facebook.com/" } ]
+    },
+    {
+      "id": "WB-0002",
+      "date": "2026-07-23",
+      "title": "Invoice PDF template — header overlap fix",
+      "project": "MPG Hub",
+      "status": "blocked",
+      "owner": "IT",
+      "notes": "Header still overlaps the line-item table on multi-page invoices. Waiting on the template render fix before this can close.",
+      "tags": [ "Base44", "Invoicing" ]
+    },
+    {
+      "id": "WB-0001",
+      "date": "2026-07-22",
+      "title": "Privacy policy published to transwayxpress.com",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "PIPEDA and CASL compliant policy is live and linked from the footer.",
+      "tags": [ "Compliance", "WordPress" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/privacy-policy/" } ]
+    }
+  ]
+}
+{
+  "meta": {
+    "owner": "IT — Transway Transport",
+    "title": "Work Board",
+    "subtitle": "What's being worked on, when it moved, and whether it's finished. Updated as work happens."
+  },
+  "entries": [
+    {
       "id": "WB-0019",
       "date": "2026-08-07",
       "title": "How to Choose a Fulfillment Partner: A 12-Point Checklist",
