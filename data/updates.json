@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "owner": "IT — Transway Transport",
+    "title": "Work Board",
+    "subtitle": "What's being worked on, when it moved, and whether it's finished. Updated as work happens."
+  },
+  "entries": [
+    {
+      "id": "WB-0003",
+      "date": "2026-07-24",
+      "title": "USA & Canada Dock Leads — new ad set live",
+      "project": "Meta Ads",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "Launched the North India geo test set today. Watching cost per lead for 72 hours before scaling budget.",
+      "metrics": [
+        {
+          "label": "Spend",
+          "value": "$248.10"
+        },
+        {
+          "label": "Impressions",
+          "value": "41,203"
+        },
+        {
+          "label": "Clicks",
+          "value": "612"
+        },
+        {
+          "label": "CTR",
+          "value": "1.49%"
+        },
+        {
+          "label": "Leads",
+          "value": "17"
+        },
+        {
+          "label": "Cost / lead",
+          "value": "$14.59"
+        }
+      ],
+      "tags": [
+        "TXG",
+        "Paid social"
+      ],
+      "links": [
+        {
+          "label": "Ads Manager",
+          "url": "https://adsmanager.facebook.com/"
+        }
+      ]
+    },
+    {
+      "id": "WB-0002",
+      "date": "2026-07-23",
+      "title": "Invoice PDF template — header overlap fix",
+      "project": "MPG Hub",
+      "status": "blocked",
+      "owner": "IT",
+      "notes": "Header still overlaps the line-item table on multi-page invoices. Waiting on the template render fix before this can close.",
+      "tags": [
+        "Base44",
+        "Invoicing"
+      ]
+    },
+    {
+      "id": "WB-0001",
+      "date": "2026-07-22",
+      "title": "Privacy policy published to transwayxpress.com",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "PIPEDA and CASL compliant policy is live and linked from the footer.",
+      "tags": [
+        "Compliance",
+        "WordPress"
+      ],
+      "links": [
+        {
+          "label": "View page",
+          "url": "https://transwayxpress.com/privacy-policy/"
+        }
+      ]
+    }
+  ]
+}
