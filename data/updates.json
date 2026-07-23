@@ -6,21 +6,6 @@
   },
   "entries": [
     {
-      "id": "WB-0020",
-      "date": "2026-07-24",
-      "title": "Landing page form — add Monthly Volume field",
-      "project": "TXG Website",
-      "status": "in-progress",
-      "owner": "IT",
-      "notes": "New required field 'Monthly Volume' with a dropdown: 0-50, 50-100, 100-300, 300-500. Whole landing page to be finalized by Friday 24 July.",
-      "metrics": [
-        { "label": "Due", "value": "24 Jul" },
-        { "label": "New fields", "value": "1" },
-        { "label": "Options", "value": "4" }
-      ],
-      "tags": [ "Forms", "Landing page" ]
-    },
-    {
       "id": "WB-0019",
       "date": "2026-08-07",
       "title": "How to Choose a Fulfillment Partner: A 12-Point Checklist",
@@ -175,6 +160,60 @@
       "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/cross-border-ecommerce-fulfillment-guide/" } ]
     },
     {
+      "id": "WB-0026",
+      "date": "2026-07-24",
+      "title": "UGC ad video — model swap requested from agency",
+      "project": "Creative",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "External agency is producing the UGC ad video. We have sent it back asking them to change the on-camera model. Waiting on the recut before it can go into any ad set.",
+      "tags": [ "UGC", "Video", "Agency", "Paid social" ]
+    },
+    {
+      "id": "WB-0023",
+      "date": "2026-07-24",
+      "title": "GEO foundations — llms.txt live, spam taxonomy cleared",
+      "project": "SEO / AEO / GEO",
+      "status": "done",
+      "owner": "IT",
+      "notes": "llms.txt is now served at the site root, giving AI crawlers explicit guidance. The Russian-language and numeric spam categories flagged in the July audits are gone — the taxonomy is down to 5 real categories plus Uncategorized. XML sitemap is live.",
+      "metrics": [ { "label": "llms.txt", "value": "Live" }, { "label": "Categories", "value": "6" }, { "label": "Spam cats", "value": "0" }, { "label": "Sitemap", "value": "Live" } ],
+      "tags": [ "GEO", "WordPress", "Technical SEO" ]
+    },
+    {
+      "id": "WB-0022",
+      "date": "2026-07-24",
+      "title": "AEO — FAQ blocks written, FAQPage schema still missing",
+      "project": "SEO / AEO / GEO",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "35 of 47 published items carry question-led headings or FAQ sections, which is the content half of the answer-engine work. None of them emit FAQPage schema yet, so answer engines cannot parse them as Q&A. Schema deployment is the remaining step.",
+      "metrics": [ { "label": "Content scanned", "value": "47" }, { "label": "With FAQ / Q headings", "value": "35" }, { "label": "With FAQPage schema", "value": "0" }, { "label": "Coverage", "value": "74%" } ],
+      "tags": [ "AEO", "Schema", "Content" ]
+    },
+    {
+      "id": "WB-0021",
+      "date": "2026-07-24",
+      "title": "SEO — meta titles and descriptions across all pages",
+      "project": "SEO / AEO / GEO",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "All 12 service pages are fully covered. Posts are 15 of 16. Pages sit at 12 of 19 — the gaps are Privacy Policy, Shipping Rate Calculator, the India-to-USA/Canada page, and four inactive WooCommerce pages (Shop, Cart, Checkout, My account).",
+      "metrics": [ { "label": "Services", "value": "12/12" }, { "label": "Posts", "value": "15/16" }, { "label": "Pages", "value": "12/19" }, { "label": "Overall", "value": "39/47" }, { "label": "Gaps", "value": "8" } ],
+      "tags": [ "SEO", "AIOSEO", "On-page" ]
+    },
+    {
+      "id": "WB-0020",
+      "date": "2026-07-24",
+      "title": "Landing page form — add Monthly Volume field",
+      "project": "TXG Website",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "New required field 'Monthly Volume' with a dropdown: 0-50, 50-100, 100-300, 300-500. Whole landing page to be finalized by Friday 24 July.",
+      "metrics": [ { "label": "Due", "value": "24 Jul" }, { "label": "New fields", "value": "1" }, { "label": "Options", "value": "4" } ],
+      "tags": [ "Forms", "Landing page" ]
+    },
+    {
       "id": "WB-0005",
       "date": "2026-07-24",
       "title": "The End of De Minimis: What the Collapse of the $800 Rule Means for Brands Selling in the US",
@@ -193,13 +232,7 @@
       "status": "done",
       "owner": "IT",
       "notes": "One post per day at 9:00 AM IST from 24 July through 7 August. Covers customs and compliance, cross-border shipping, Amazon marketplaces, and fulfillment.",
-      "metrics": [
-        { "label": "Posts", "value": "15" },
-        { "label": "First live", "value": "24 Jul" },
-        { "label": "Last live", "value": "7 Aug" },
-        { "label": "Cadence", "value": "Daily" },
-        { "label": "Categories", "value": "4" }
-      ],
+      "metrics": [ { "label": "Posts", "value": "15" }, { "label": "First live", "value": "24 Jul" }, { "label": "Last live", "value": "7 Aug" }, { "label": "Cadence", "value": "Daily" }, { "label": "Categories", "value": "4" } ],
       "tags": [ "SEO", "WordPress", "Content" ]
     },
     {
@@ -210,14 +243,7 @@
       "status": "in-progress",
       "owner": "IT",
       "notes": "Launched the North India geo test set today. Watching cost per lead for 72 hours before scaling budget.",
-      "metrics": [
-        { "label": "Spend", "value": "$248.10" },
-        { "label": "Impressions", "value": "41,203" },
-        { "label": "Clicks", "value": "612" },
-        { "label": "CTR", "value": "1.49%" },
-        { "label": "Leads", "value": "17" },
-        { "label": "Cost / lead", "value": "$14.59" }
-      ],
+      "metrics": [ { "label": "Spend", "value": "$248.10" }, { "label": "Impressions", "value": "41,203" }, { "label": "Clicks", "value": "612" }, { "label": "CTR", "value": "1.49%" }, { "label": "Leads", "value": "17" }, { "label": "Cost / lead", "value": "$14.59" } ],
       "tags": [ "TXG", "Paid social" ],
       "links": [ { "label": "Ads Manager", "url": "https://adsmanager.facebook.com/" } ]
     },
@@ -241,6 +267,28 @@
       "notes": "PIPEDA and CASL compliant policy is live and linked from the footer.",
       "tags": [ "Compliance", "WordPress" ],
       "links": [ { "label": "View page", "url": "https://transwayxpress.com/privacy-policy/" } ]
+    },
+    {
+      "id": "WB-0025",
+      "date": "2026-07-09",
+      "title": "SEO re-audit — July 1 issues confirmed unresolved",
+      "project": "SEO / AEO / GEO",
+      "status": "done",
+      "owner": "IT",
+      "notes": "14-page Word audit delivered. Every critical issue from the July 1 audit was still open nine days later: PHP warnings rendering on service pages, lorem ipsum footer copy, placeholder NAP, broken images. New finding: an indexed theme-builder archive at /footer/ exposing unrelated demo pages under the domain.",
+      "metrics": [ { "label": "Pages", "value": "14" }, { "label": "Keywords", "value": "20" }, { "label": "Content gaps", "value": "6" }, { "label": "Competitors", "value": "3" } ],
+      "tags": [ "SEO", "Audit", "Report" ]
+    },
+    {
+      "id": "WB-0024",
+      "date": "2026-06-30",
+      "title": "Deep SEO / AEO / GEO audit of transwayxpress.com",
+      "project": "SEO / AEO / GEO",
+      "status": "done",
+      "owner": "IT",
+      "notes": "34-page audit covering 100 SEO issues, 50 GEO improvements, 50 AEO improvements, 100 content opportunities, topical map, schema and entity roadmaps, a 90-day plan, and 17 n8n workflow designs. Core strategic call: own the 'fulfillment for Indian brands entering the US and Canada' niche.",
+      "metrics": [ { "label": "Pages", "value": "34" }, { "label": "SEO issues", "value": "100" }, { "label": "GEO items", "value": "50" }, { "label": "AEO items", "value": "50" }, { "label": "Content ideas", "value": "100" } ],
+      "tags": [ "SEO", "GEO", "AEO", "Audit" ]
     }
   ]
 }
