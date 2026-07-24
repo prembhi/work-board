@@ -207,10 +207,10 @@
       "date": "2026-07-24",
       "title": "Landing page form — add Monthly Volume field",
       "project": "TXG Website",
-      "status": "in-progress",
+      "status": "done",
       "owner": "IT",
-      "notes": "New required field 'Monthly Volume' with a dropdown: 0-50, 50-100, 100-300, 300-500. Whole landing page to be finalized by Friday 24 July.",
-      "metrics": [ { "label": "Due", "value": "24 Jul" }, { "label": "New fields", "value": "1" }, { "label": "Options", "value": "4" } ],
+      "notes": "Monthly Volume field is live on the form with its four options: 0-50, 50-100, 100-300, 300-500. Landing page finalized on schedule.",
+      "metrics": [ { "label": "Completed", "value": "24 Jul" }, { "label": "New fields", "value": "1" }, { "label": "Options", "value": "4" } ],
       "tags": [ "Forms", "Landing page" ]
     },
     {
