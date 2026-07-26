@@ -194,12 +194,12 @@
     {
       "id": "WB-0021",
       "date": "2026-07-24",
-      "title": "SEO — meta titles and descriptions across all pages",
+      "title": "SEO — meta titles, descriptions & keyphrases on all posts",
       "project": "SEO / AEO / GEO",
-      "status": "in-progress",
+      "status": "done",
       "owner": "IT",
-      "notes": "All 12 service pages are fully covered. Posts are 15 of 16. Pages sit at 12 of 19 — the gaps are Privacy Policy, Shipping Rate Calculator, the India-to-USA/Canada page, and four inactive WooCommerce pages (Shop, Cart, Checkout, My account).",
-      "metrics": [ { "label": "Services", "value": "12/12" }, { "label": "Posts", "value": "15/16" }, { "label": "Pages", "value": "12/19" }, { "label": "Overall", "value": "39/47" }, { "label": "Gaps", "value": "8" } ],
+      "notes": "All 16 blog posts now carry a meta title, meta description and focus keyphrase — the last gap (Cross-Border Returns) is filled. Services remain 12/12. Pages sit at 12/19; the remaining gaps are Privacy Policy, Shipping Rate Calculator, the India-to-USA/Canada page and four inactive WooCommerce pages.",
+      "metrics": [ { "label": "Posts", "value": "16/16" }, { "label": "Services", "value": "12/12" }, { "label": "Pages", "value": "12/19" }, { "label": "Overall", "value": "40/47" }, { "label": "Keyphrases", "value": "Set" } ],
       "tags": [ "SEO", "AIOSEO", "On-page" ]
     },
     {
