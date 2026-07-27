@@ -427,6 +427,17 @@
       "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/amazon-fba-prep-guide/" } ]
     },
     {
+      "id": "WB-0027",
+      "date": "2026-07-27",
+      "title": "15 blog creatives created and uploaded to blogs",
+      "project": "TXG Blog",
+      "status": "done",
+      "owner": "Design",
+      "notes": "Featured creatives designed for all 15 scheduled blog posts and uploaded to their respective posts.",
+      "metrics": [ { "label": "Creatives", "value": "15" }, { "label": "Uploaded", "value": "15/15" } ],
+      "tags": [ "Creative", "Blog", "Design" ]
+    },
+    {
       "id": "WB-0008",
       "date": "2026-07-27",
       "title": "How to Calculate Landed Cost for Cross-Border E-commerce",
