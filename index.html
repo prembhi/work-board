@@ -235,6 +235,10 @@
   <div class="wrap">
     <div class="pills" id="pills"></div>
     <span class="grow"></span>
+    <select id="sort" aria-label="Sort by">
+      <option value="date-desc">Newest first</option>
+      <option value="date-asc">Oldest first</option>
+    </select>
     <select id="project" aria-label="Filter by project"><option value="all">All projects</option></select>
     <input type="search" id="q" placeholder="Search updates" aria-label="Search updates" />
   </div>
@@ -258,7 +262,7 @@ const LABEL = {done:'Done','in-progress':'In progress',blocked:'Blocked',planned
 const REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 let DATA = {entries:[]};
-const f = {status:'all', project:'all', q:''};
+const f = {status:'all', project:'all', q:'', sort:'date-desc'};
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
@@ -331,6 +335,10 @@ function controls(){
     projects.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('');
   sel.addEventListener('change', () => { f.project = sel.value; render(); });
 
+  const sortSel = document.getElementById('sort');
+  sortSel.value = f.sort;
+  sortSel.addEventListener('change', () => { f.sort = sortSel.value; render(); });
+
   const q = document.getElementById('q');
   q.addEventListener('input', () => { f.q = q.value.trim().toLowerCase(); render(); });
 }
@@ -366,8 +374,10 @@ function card(e){
 
 function render(){
   const feed = document.getElementById('feed');
+  const asc = f.sort === 'date-asc';
+  const dir = asc ? 1 : -1;
   const rows = DATA.entries.filter(hit)
-    .sort((a,b) => (b.date||'').localeCompare(a.date||'') || String(b.id).localeCompare(String(a.id)));
+    .sort((a,b) => dir * ((a.date||'').localeCompare(b.date||'')) || dir * (String(a.id).localeCompare(String(b.id))));
 
   if (!rows.length){
     feed.innerHTML = `<div class="empty"><strong>Nothing matches</strong>Clear the filters, or add an entry to data/updates.json.</div>`;
@@ -376,7 +386,7 @@ function render(){
   const byDay = {};
   rows.forEach(r => (byDay[r.date] ||= []).push(r));
 
-  feed.innerHTML = Object.keys(byDay).sort((a,b) => b.localeCompare(a)).map(day => `
+  feed.innerHTML = Object.keys(byDay).sort((a,b) => dir * a.localeCompare(b)).map(day => `
     <section class="day">
       <div class="dayhead">
         <span class="d">${esc(fmtDate(day))}</span>
