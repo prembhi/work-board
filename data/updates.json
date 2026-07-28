@@ -427,6 +427,27 @@
       "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/amazon-fba-prep-guide/" } ]
     },
     {
+      "id": "WB-0029",
+      "date": "2026-07-27",
+      "title": "5 animation graphics for website — creating for motion designer",
+      "project": "TXG Website",
+      "status": "in-progress",
+      "owner": "Design",
+      "notes": "Designing 5 static graphics for the website that will be handed off to the motion graphics designer to animate. Graphic creation in progress; animation handoff pending.",
+      "metrics": [ { "label": "Graphics", "value": "5" }, { "label": "Stage", "value": "Design" }, { "label": "Handoff", "value": "Pending" } ],
+      "tags": [ "Creative", "Animation", "Website" ]
+    },
+    {
+      "id": "WB-0028",
+      "date": "2026-07-27",
+      "title": "Blog page — layout changed from vertical to horizontal",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "Newly created blog page layout reworked from a vertical stacked list to a horizontal card layout.",
+      "tags": [ "WordPress", "Layout", "Blog" ]
+    },
+    {
       "id": "WB-0027",
       "date": "2026-07-27",
       "title": "15 blog creatives created and uploaded to blogs",
