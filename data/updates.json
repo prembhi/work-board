@@ -290,10 +290,10 @@
       "date": "2026-08-11",
       "title": "97% accuracy = 15,000 wrong orders a year",
       "project": "Social Media",
-      "status": "planned",
+      "status": "done",
       "owner": "Design",
-      "notes": "Quote card — LinkedIn. Pending design. Text, caption, visual direction and source are in the 30-day content pack.",
-      "tags": [ "Fulfillment Ops", "Quote card" ]
+      "notes": "Created and posted. Quote card (LinkedIn) — live on social. Text, caption, visual direction and source are in the 30-day content pack.",
+      "tags": [ "Fulfillment Ops", "Quote card", "Posted" ]
     },
     {
       "id": "Day 1",
