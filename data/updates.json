@@ -339,6 +339,61 @@
       "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/peak-season-fulfillment-readiness/" } ]
     },
     {
+      "id": "WB-0034",
+      "date": "2026-08-04",
+      "title": "Fulfillment Cost in Canada (2026 pricing guide) page — created",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "New pricing-guide / SEO page. Live.",
+      "tags": [ "WordPress", "Landing page", "Elementor" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/fulfillment-cost-canada/" } ]
+    },
+    {
+      "id": "WB-0033",
+      "date": "2026-08-04",
+      "title": "Comparison page — TXG vs ShipHype vs Shipfusion vs 247",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "New comparison / SEO page. Live.",
+      "tags": [ "WordPress", "Landing page", "Elementor" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/compare/" } ]
+    },
+    {
+      "id": "WB-0032",
+      "date": "2026-08-04",
+      "title": "US Fulfillment for Canadian Brands page — created",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "New Elementor landing page. Live.",
+      "tags": [ "WordPress", "Landing page", "Elementor" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/us-fulfillment-for-canadian-brands/" } ]
+    },
+    {
+      "id": "WB-0031",
+      "date": "2026-08-04",
+      "title": "eCommerce Fulfillment in Canada page — created",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "New Elementor landing page. Live.",
+      "tags": [ "WordPress", "Landing page", "Elementor" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/ecommerce-fulfillment-canada/" } ]
+    },
+    {
+      "id": "WB-0030",
+      "date": "2026-08-04",
+      "title": "eCommerce Fulfillment Services page — created",
+      "project": "TXG Website",
+      "status": "done",
+      "owner": "IT",
+      "notes": "New Elementor service landing page. Live.",
+      "tags": [ "WordPress", "Landing page", "Elementor" ],
+      "links": [ { "label": "View page", "url": "https://transwayxpress.com/ecommerce-fulfillment/" } ]
+    },
+    {
       "id": "WB-0016",
       "date": "2026-08-04",
       "title": "Warehousing in the US vs. Canada: Where Should You Store Inventory?",
@@ -463,11 +518,11 @@
       "date": "2026-07-27",
       "title": "How to Calculate Landed Cost for Cross-Border E-commerce",
       "project": "TXG Blog",
-      "status": "planned",
+      "status": "done",
       "owner": "IT",
-      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
-      "tags": [ "Scheduled", "Cross-Border Shipping" ],
-      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/how-to-calculate-landed-cost/" } ]
+      "notes": "Published and live on transwayxpress.com.",
+      "tags": [ "Cross-Border Shipping", "Published" ],
+      "links": [ { "label": "Read post", "url": "https://transwayxpress.com/how-to-calculate-landed-cost/" } ]
     },
     {
       "id": "SM-IND-CA",
@@ -484,22 +539,22 @@
       "date": "2026-07-26",
       "title": "DDP vs. DAP: Which Shipping Term Should Your Brand Actually Use?",
       "project": "TXG Blog",
-      "status": "planned",
+      "status": "done",
       "owner": "IT",
-      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
-      "tags": [ "Scheduled", "Cross-Border Shipping" ],
-      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/ddp-vs-dap-shipping-explained/" } ]
+      "notes": "Published and live on transwayxpress.com.",
+      "tags": [ "Cross-Border Shipping", "Published" ],
+      "links": [ { "label": "Read post", "url": "https://transwayxpress.com/ddp-vs-dap-shipping-explained/" } ]
     },
     {
       "id": "WB-0006",
       "date": "2026-07-25",
       "title": "Cross-Border E-commerce Fulfillment: The Complete 2026 Guide",
       "project": "TXG Blog",
-      "status": "planned",
+      "status": "done",
       "owner": "IT",
-      "notes": "Goes live 9:00 AM IST. Category: Cross-Border Shipping.",
-      "tags": [ "Scheduled", "Cross-Border Shipping" ],
-      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/cross-border-ecommerce-fulfillment-guide/" } ]
+      "notes": "Published and live on transwayxpress.com.",
+      "tags": [ "Cross-Border Shipping", "Published" ],
+      "links": [ { "label": "Read post", "url": "https://transwayxpress.com/cross-border-ecommerce-fulfillment-guide/" } ]
     },
     {
       "id": "WB-0026",
@@ -560,11 +615,11 @@
       "date": "2026-07-24",
       "title": "The End of De Minimis: What the Collapse of the $800 Rule Means for Brands Selling in the US",
       "project": "TXG Blog",
-      "status": "planned",
+      "status": "done",
       "owner": "IT",
-      "notes": "Goes live 9:00 AM IST. Category: Customs & Compliance.",
-      "tags": [ "Scheduled", "Customs & Compliance" ],
-      "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/end-of-de-minimis-what-it-means-for-your-brand/" } ]
+      "notes": "Published and live on transwayxpress.com.",
+      "tags": [ "Customs & Compliance", "Published" ],
+      "links": [ { "label": "Read post", "url": "https://transwayxpress.com/end-of-de-minimis-what-it-means-for-your-brand/" } ]
     },
     {
       "id": "WB-0004",
