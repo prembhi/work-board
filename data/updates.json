@@ -339,6 +339,17 @@
       "links": [ { "label": "Post URL", "url": "https://transwayxpress.com/peak-season-fulfillment-readiness/" } ]
     },
     {
+      "id": "WB-0035",
+      "date": "2026-08-04",
+      "title": "AEO — FAQPage schema deployment across blog posts",
+      "project": "SEO / AEO / GEO",
+      "status": "in-progress",
+      "owner": "IT",
+      "notes": "Rolling FAQPage structured data onto published posts so answer engines (Google AI, Perplexity, ChatGPT) can parse Q&A. Live on 4 posts so far; remaining posts pending.",
+      "metrics": [ { "label": "Posts w/ schema", "value": "4" }, { "label": "Target", "value": "All FAQ posts" } ],
+      "tags": [ "AEO", "Schema", "Structured data" ]
+    },
+    {
       "id": "WB-0034",
       "date": "2026-08-04",
       "title": "Fulfillment Cost in Canada (2026 pricing guide) page — created",
@@ -573,30 +584,30 @@
       "project": "SEO / AEO / GEO",
       "status": "done",
       "owner": "IT",
-      "notes": "llms.txt is now served at the site root, giving AI crawlers explicit guidance. The Russian-language and numeric spam categories flagged in the July audits are gone — the taxonomy is down to 5 real categories plus Uncategorized. XML sitemap is live.",
+      "notes": "llms.txt served at site root for AI crawlers. Spam taxonomy cleared (6 clean categories). XML sitemap live. Foundations in place for generative-engine visibility.",
       "metrics": [ { "label": "llms.txt", "value": "Live" }, { "label": "Categories", "value": "6" }, { "label": "Spam cats", "value": "0" }, { "label": "Sitemap", "value": "Live" } ],
       "tags": [ "GEO", "WordPress", "Technical SEO" ]
     },
     {
       "id": "WB-0022",
       "date": "2026-07-24",
-      "title": "AEO — FAQ blocks written, FAQPage schema still missing",
+      "title": "AEO — FAQ content live, FAQPage schema rolling out",
       "project": "SEO / AEO / GEO",
       "status": "in-progress",
       "owner": "IT",
-      "notes": "35 of 47 published items carry question-led headings or FAQ sections, which is the content half of the answer-engine work. None of them emit FAQPage schema yet, so answer engines cannot parse them as Q&A. Schema deployment is the remaining step.",
-      "metrics": [ { "label": "Content scanned", "value": "47" }, { "label": "With FAQ / Q headings", "value": "35" }, { "label": "With FAQPage schema", "value": "0" }, { "label": "Coverage", "value": "74%" } ],
+      "notes": "35 of 48 published items carry question-led headings or FAQ sections. FAQPage schema is now emitting on 4 posts (Canadian Fulfillment Statistics, Best Fulfillment for Indian Brands, plus 2) — up from zero. Remaining posts still need schema added to be answer-engine parseable.",
+      "metrics": [ { "label": "Content scanned", "value": "48" }, { "label": "FAQ / Q headings", "value": "35" }, { "label": "FAQPage schema", "value": "4" }, { "label": "Coverage", "value": "73%" } ],
       "tags": [ "AEO", "Schema", "Content" ]
     },
     {
       "id": "WB-0021",
       "date": "2026-07-24",
-      "title": "SEO — meta titles, descriptions & keyphrases on all posts",
+      "title": "SEO — meta titles, descriptions & keyphrases",
       "project": "SEO / AEO / GEO",
-      "status": "done",
+      "status": "in-progress",
       "owner": "IT",
-      "notes": "All 16 blog posts now carry a meta title, meta description and focus keyphrase — the last gap (Cross-Border Returns) is filled. Services remain 12/12. Pages sit at 12/19; the remaining gaps are Privacy Policy, Shipping Rate Calculator, the India-to-USA/Canada page and four inactive WooCommerce pages.",
-      "metrics": [ { "label": "Posts", "value": "16/16" }, { "label": "Services", "value": "12/12" }, { "label": "Pages", "value": "12/19" }, { "label": "Overall", "value": "40/47" }, { "label": "Keyphrases", "value": "Set" } ],
+      "notes": "Across all published content: services 12/12, pages 20/24, posts 11/12. Remaining gaps are the 4 inactive WooCommerce pages (Shop, Cart, Checkout, My account) plus a handful of missing focus keyphrases on newer posts (What Is 4PL, Choose US Warehouse, Amazon Canada FBA Prep) and the Blogs page.",
+      "metrics": [ { "label": "Services", "value": "12/12" }, { "label": "Pages", "value": "20/24" }, { "label": "Posts", "value": "11/12" }, { "label": "Overall", "value": "43/48" }, { "label": "KW gaps", "value": "5" } ],
       "tags": [ "SEO", "AIOSEO", "On-page" ]
     },
     {
